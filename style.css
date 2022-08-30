@@ -1,0 +1,309 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 80px;
+    background: rgba(243, 243, 240, 0.9);
+    border: 1px solid #328ac9;
+    border-left: 0px;
+    border-right: 0px;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-bar img {
+    width: 70px;
+    height: 76px;
+    padding-left: 100px;
+    padding-top: 2px;
+}
+.nav-bar i{
+    display: none;
+}
+.nav-bar ul {
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 100px;
+}
+.nav-bar ul li {
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: normal;
+    color: #328ac9;
+    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    text-decoration-line: none;
+    text-transform: capitalize;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #328ac9;
+}
+
+.nav-bar ul li a.home {
+    text-decoration: underline;
+    padding-right: 50px;    
+}
+.nav-bar ul li a.home:hover{
+    text-decoration: none;
+    color: #151b54;
+}
+
+.nav-bar ul li a.aboutus {
+    text-decoration: none;
+    padding-right: 40px;
+}
+.nav-bar ul li a.aboutus:hover{
+    text-decoration: none;
+    color: #151b54;
+}
+
+.nav-bar ul li a.login {
+    text-decoration: none;
+    padding-right: 30px;
+}
+.nav-bar ul li a.login:hover{
+    text-decoration: none;
+    color: #151b54;
+}
+
+.nav-bar ul li a.signup {
+    text-decoration: none;
+    padding-right: 20px;
+}
+.nav-bar ul li a.signup:hover{
+    text-decoration: none;
+    color: #151b54;
+}
+
+.nav-bar ul li a.booknow {
+    text-decoration: none;
+    border-radius: 8px;
+    background: #328ac9;
+    color: #f3f3f0;
+    border: 5px solid #328ac9;
+    box-sizing: border-box;
+    padding: 6px 30px 10px 30px;
+}
+.nav-bar ul li a.booknow:hover{
+    background: #151b54;
+    border: 5px solid #151b54;
+    color: wheat;
+}
+.nav-bar .hm{
+    display: block;
+}
+.hero {
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    background-image: url(images/interior-view-operating-room.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.hero .one {
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.hero .one h6 {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 62.5px;
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.hero .two {
+    width: 100%;
+    height: auto;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+
+.hero .two h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: #328ac9;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 49px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+
+}
+
+.hero .three {
+    width: 100%;
+    height: 100px;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+}
+.hero .three .three1 {
+    width: 75%;
+    height: 100px;
+    /* background-color: darkblue; */
+    display: flex;
+    justify-content: center;
+}
+
+.hero .three p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: #f3f3f0;
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    /* padding-top: 0px; */
+    line-height: 37px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* padding-right: 16.60%;
+    padding-left: 16.60%; */
+}
+
+.hero .four {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    /* background-color: firebrick; */
+}
+
+.hero .four p {
+    text-decoration: none;
+    background: #328ac9;
+    color: #f3f3f0;
+    border-radius: 5px;
+    padding: 10px 35px 10px 35px;
+    /* animation: breathing 5s ease-out infinite; */
+    animation: breath 2s ease infinite;
+}
+@keyframes breath {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.7);
+    }
+    100%{
+        transform: scale(1);
+    }
+
+}
+.hero .five {
+    width: 100%;
+    height: 100px;
+    /* margin-top: 40px;
+    margin-bottom: 20px; */
+    display: flex;
+    justify-content: center;
+    /* background-color: gold; */
+}
+
+.hero .five p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    line-height: 30px;
+    /* padding-left: 32.8%; */
+}
+
+.hero .six {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    /* background-color: cadetblue; */
+}
+
+.hero .six form {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.hero .six form #email {
+    width: 300px;
+    padding: 15px;
+    border: 2px solid #328ac9;
+    background: transparent;
+
+}
+.hero .six form #email::placeholder{
+    color: #ffffff;
+}
+.hero .six form #submit{
+    width: 90px;
+    padding: 7px;
+    border: 2px solid #328ac9;
+    background-color: #328ac9;
+    color: #ffffff;
+}
+.hero .seven{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    /* background-color: hotpink; */
+    background: none;
+    /* padding-bottom: 10px; */
+}
+.hero .seven .logos{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+.hero .seven .logos .lo{
+    color: #ffffff;    
+}
+
+@media screen and (max-width:700px){
+    .hero{
+        
+    }
+    .nav-bar ul{
+        display: none;
+    }
+    /* .nav-bar i{
+        display: block;
+    } */
+    /* .text{
+        font-size: 100px;
+    } */
+}
